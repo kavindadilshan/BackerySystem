@@ -1,0 +1,30 @@
+body{
+	 
+}
+
+.sectionfull{width:100%; float:left;}
+.fixedclass {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    left: 265px;
+    z-index: 999;
+    padding: 10px 30px;
+	border-top:1px solid #e0e0e0;
+}
+.fixedclasspos {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    left:50px;
+    z-index: 999;
+    padding: 10px 30px;
+	border-top:1px solid #e0e0e0;
+}
+
+.bottomarea{width:100%; position:relative;float:left;}
+.grandtxt{font-size:18px;}
+.grandbg{ background:#063; color:#FFF; font-size:20px;}
+.cusbtn{font-size:28px; padding:12px 15px;}

@@ -1,0 +1,14 @@
+.sectionfull{width:100%; float:left;}
+.bg-brown{background-color: rgb(239, 235, 233); margin-bottom:15px}
+.bg-deep-purple{background-color: rgb(237, 231, 246);}
+.bg-white{background-color: rgb(255, 255, 255); margin-top:15px; margin-bottom:15px;}
+.white{background-color: rgb(255, 255, 255); margin-top:15px; margin-bottom:15px; padding:5px 10px; border: 1px solid #cecece;}
+.hasaddons{display:none;}
+.adonsmore{cursor:pointer;}
+
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 250px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}

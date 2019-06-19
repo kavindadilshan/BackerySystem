@@ -1,0 +1,144 @@
+body{
+	 
+}
+.table_content, .table_content_booking {
+    float: left;
+    width: 100%;
+}
+.table_booking_header {
+    float: left;
+    font-weight: bold;
+    width: 100%;
+	font-size: 20px;
+}
+.table_booking {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.table_tables {
+    float: left;
+    width: 100%;
+	position: relative;
+}
+.table_tables_item_seats {
+    float: left;
+    width: 100%;
+}
+.table_preview_top, .table_preview_doc, .table_preview_bot {
+    float: left;
+    width: 100%;
+}
+.table_preview_top span:nth-child(1), .table_preview_bot span:nth-child(1) {
+    margin-left: 28px;
+}
+.table_preview_top span, .table_preview_bot span {
+    border: 1px solid #ccc;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 28px;
+	color: #fff;
+	cursor: pointer;
+}
+.seatspace {
+    text-indent: -9999em;
+	border: medium none !important;
+}
+.table_preview_doc .table_preview_left, .table_preview_doc .table_preview_right {
+    border: 1px solid #ccc;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 28px;
+	cursor: pointer;
+}
+.table_preview_doc span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.table_tables_item {
+    position: relative;
+}
+.table_tables_item_content {
+    float: left;
+    width: 100%;
+	position: relative;
+	padding: 5px 0;
+}
+.table_tables_item_name {
+    float: left;
+    font-weight: bold;
+    left: 46%;
+    position: absolute;
+    top: 42%;
+	color: #fff;
+}
+.table_seatstype {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;
+}
+.table_seatstype_item {
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+.table_schedules {
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.table_schedules_item {
+    background: #2c6941 none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 3px;
+}
+.table_schedules_item.active {
+    border: 2px solid #da5000;
+}
+.table_content_submit {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.table_form_item {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.table_form_item > label {
+    float: left;
+    width: 30%;
+}
+.table_form_submit {
+    background: teal none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+}
+.table_tables_seat.booked {
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
